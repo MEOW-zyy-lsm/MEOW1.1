@@ -1,0 +1,2 @@
+<!--pages/income/income.wxml-->
+<view>{{num}}</view>

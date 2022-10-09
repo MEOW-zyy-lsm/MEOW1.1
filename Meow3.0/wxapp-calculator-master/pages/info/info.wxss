@@ -1,0 +1,61 @@
+/* pages/info/info.wxss */
+.FoodSelect{
+    width: 720rpx;
+    height: 128rpx;
+    margin: 20rpx;
+    color: lightcoral;
+    font-weight: 800;
+    font-size: 30px;
+    font-family:initial;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    background-color: rgb(231, 175, 158);
+    border-radius: 20%;
+}
+.image_food{
+    width: 250rpx;
+    height: 250rpx;
+    display: flex;
+}
+.data_style{
+    border-color: rgb(131, 93, 22);
+    border-width: 20px;
+    height: 55rpx;
+    vertical-align: middle;
+    width: 10px;
+}
+.father_style{
+    width:700px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}/*按钮设置*/
+.input1 {
+    display: flex;
+    height: 43px;
+    margin: 20px;
+    color:rgb(129, 51, 6);
+    border: 3rpx solid hsl(36, 92%, 75%);
+    border-radius: 10rpx;
+    font-size: 31px;
+    font-weight: 330;
+    font-family:"宋体";
+  }/*食品类别边框配置*/
+.wenben {
+    min-width:30rpx;
+    width:max-content
+}
+.btn1 {
+    width:80%;
+    margin-top:130rpx;
+    background-color: rgb(22, 109, 11);
+    color: white;
+    border-radius: 98rpx;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
